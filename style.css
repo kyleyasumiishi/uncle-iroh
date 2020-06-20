@@ -1,18 +1,23 @@
 :root {
-
+    --main-yellow: rgba(247,229,153,1);
+    --main-blue: rgba(191,210,217,1);
+    --main-red: rgba(154,95,95,1);
+    --title-font: 'Alegreya', serif;
+    --header-font: 'Amatic SC', cursive;
+    --text-font: 'Open Sans', sans-serif;
 }
 
 html {
     min-width: 100%;
     min-height: 100%;
+    margin: 0;
 }
-
-html, body {
+body {
     width: 100vw;
     min-height: 100vh;
     margin: 0;
     background: rgb(247, 229, 153);
-    background: linear-gradient(0deg, rgba(247,229,153,1) 0%, rgba(191,210,217,1) 76%, rgba(154,95,95,1) 100%);
+    background: linear-gradient(0deg, var(--main-yellow) 0%, var(--main-blue) 76%, var(--main-red) 100%);
     background-size: 100%;
 }
 
@@ -44,6 +49,19 @@ html, body {
 h1, h2 {
     text-align: center;
 }
+h1 {
+    font-family: var(--header-font);
+    font-size: 48px;
+}
+h2 {
+    font-family: var(--header-font);
+    font-size: 36px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+p, li {
+    font-family: var(--text-font);
+}
 img {
     display: block;
     height: auto;
@@ -52,8 +70,36 @@ img {
 }
 figcaption {
     text-align: center;
+    font-family: var(--text-font);
+    font-style: italic;
+    margin: 2% 5% 2% 5%;
 }
 main {
-    margin: 5%;
+    margin: 2% 5% 2% 5%;
     padding: 1%;
+}
+a:hover {
+    animation-name: colorful;
+    animation-duration: 0.5s;
+    color: var(--main-red);
+}
+@keyframes colorful {
+    0% {
+        color: var(--main-yellow);
+    }
+    76% {
+        color: var(--main-blue);
+    }
+    100% {
+        color: var(--main-red);
+    }
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }

@@ -1,6 +1,8 @@
 # Uncle Iroh
 
-Mobile-first, responsive website with quotes from one of my favorite TV characters, Uncle Iroh.
+Mobile-first, responsive <a href="">website</a> with quotes from one of my favorite TV characters, Uncle Iroh.
+
+<img src="" alt="Screenshot of Uncle Iroh website" width="300px">
 
 ## About
 
@@ -15,9 +17,12 @@ I built this website for two reasons:
 ## Lessons Learned
 
 * Media queries
+* HTML5 elements including `<main>`, `<figure>`, and `<figcaption>`
 * CSS Grid
 * CSS Custom Properties
-* CSS Gradients
+* CSS Gradients, specifically `linear-gradient`
+* CSS Keyframes
+* Google Fonts
 * Readme-driven development
 
 ## Technologies Used
