@@ -2,7 +2,7 @@
 
 Mobile-first, responsive <a href="https://kyleyasumiishi.github.io/uncle-iroh/">website</a> with quotes from one of my favorite TV characters, Uncle Iroh.
 
-<a href="https://kyleyasumiishi.github.io/uncle-iroh/"><img src="https://gdurl.com/iJhs" alt="Screenshot of Uncle Iroh website" width="300px"></a>
+<a href="https://kyleyasumiishi.github.io/uncle-iroh/"><img src="https://gdurl.com/iJhs" alt="Screenshot of Uncle Iroh website" align="center" width="300px"></a>
 
 ## About
 
